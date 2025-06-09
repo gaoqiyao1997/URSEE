@@ -1,8 +1,8 @@
 # Code for URSEE: Unified Reconstruction of Static and Dynamic Scenes from Events
 
 <p align="center">
-  <a href="https://youtu.be/Zh8KF_SDGrU">
-    <img src="https://img.youtube.com/vi/Zh8KF_SDGrU/0.jpg" alt="Watch the video" width="640">
+  <a href="https://youtu.be/Zh8KF_SDGrU" target="_blank">
+    <img src="https://img.youtube.com/vi/Zh8KF_SDGrU/maxresdefault.jpg" alt="Watch the video" width="960">
   </a>
 </p>
 
