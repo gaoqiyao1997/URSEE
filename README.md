@@ -41,7 +41,7 @@ conda install pytorch~=2.1.0 torchvision==0.16.1 torchaudio pytorch-cuda=11.8 -c
 (optional, only for visualization) conda install -c conda-forge jupyterlab nodejs ipympl matplotlib
 ```
 
-## Run Pipeline
+## Reconstruct Static Scene
 
 ### 1. Preprocess event data
 
