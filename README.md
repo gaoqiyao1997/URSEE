@@ -1,4 +1,4 @@
-# Code for URSEE: Unified Reconstruction of Static and Dynamic Scenes from Events (CVPR 2025 Highlight)
+# Code for *URSEE: Unified Reconstruction of Static and Dynamic Scenes from Events* (CVPR 2025 Highlight)
 
 <p align="center">
   <a href="https://youtu.be/Zh8KF_SDGrU" target="_blank">
