@@ -37,7 +37,8 @@ conda activate virtualenv_name
    
 2. Install dependencies
 ```
-conda install pytorch~=2.1.0 torchvision==0.16.1 torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia (optional, only for visualization) conda install -c conda-forge jupyterlab nodejs ipympl matplotlib
+conda install pytorch~=2.1.0 torchvision==0.16.1 torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+(optional, only for visualization) conda install -c conda-forge jupyterlab nodejs ipympl matplotlib
 ```
 
 ## Run Pipeline
