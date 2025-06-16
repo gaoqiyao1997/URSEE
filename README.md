@@ -29,9 +29,14 @@ This paper addresses the challenge that current event-based video reconstruction
 
 ## Setup instruction
 
-1. Initialize virtual env
-   <code>
-   conda create -n virtualenv_name python=3.10
-   conda activate virtualenv_name
-   <\code>
-3. 
+
+## Run Pipeline
+
+### 1. Preprocess event data
+
+```bash
+python preprocess.py --input ./data/raw --output ./data/processed --type event
+
+python separation.py --input ./data/processed --output ./data/separated
+
+python reconstruct.py --input ./data/separated --output ./results --model ./checkpoints/URSEE.pth
