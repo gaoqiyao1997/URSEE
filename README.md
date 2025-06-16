@@ -41,16 +41,9 @@ conda install pytorch~=2.1.0 torchvision==0.16.1 torchaudio pytorch-cuda=11.8 -c
 (optional, only for visualization) conda install -c conda-forge jupyterlab nodejs ipympl matplotlib
 ```
 
-## Reconstruct Static Scene
+## Reconstruct Static Scene only
 
-### 1. Preprocess event data
+### 1. Download the checkpoint from here
 
-```bash
-python preprocess.py --input ./data/raw --output ./data/processed --type event
+### 2. Run the python file with changing the input and output file address.
 
-python separation.py --input ./data/processed --output ./data/separated
-
-python reconstruct.py --input ./data/separated --output ./results --model ./checkpoints/URSEE.pth
-```
-
-hello
