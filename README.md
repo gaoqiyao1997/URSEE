@@ -45,7 +45,7 @@ conda install pytorch~=2.1.0 torchvision==0.16.1 torchaudio pytorch-cuda=11.8 -c
 
 The static reconstruction branch of the URSEE framework enables the independent reconstruction of static scenes. Users simply need to convert the static event stream into a <code>.csv</code> file (timestamp, x, y, and polarity).
 
-**NOTE:** Adaptively adjust the ON/OFF threshold according to the static scene to obtain sufficient events for reconstruction.
+`**NOTE:** Adaptively adjust the ON/OFF threshold according to the static scene to obtain sufficient events for reconstruction.`
 
 1. Obtain the **initial event frame** using the `convolutional integration method`.
 ```
@@ -55,5 +55,5 @@ python conv_integral_reconstruction.py
 ```
 python conv_integral_reconstruction.py
 ```
-
-### Color Reconstruction of Static Scenes (Option)
+· Color Reconstruction of Static Scenes (Option)
+   
