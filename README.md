@@ -21,8 +21,8 @@ This paper addresses the challenge that current event-based video reconstruction
 
 ## Datasets
 
-- **E-Static Dataset**
+- **E-Static Dataset:**
   This is a real-world dataset captured from diverse indoor and outdoor static scenes, comprising 200 sets of raw event streams alongside corresponding high-quality ground truth frames.
 
-- **E-StaDyn Dataset**
+- **E-StaDyn Dataset:**
   This is a synthetic dataset comprising 130 distinct scenes, each characterized by a unique static background and dynamic foreground.
