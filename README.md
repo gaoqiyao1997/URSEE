@@ -29,6 +29,8 @@ This paper addresses the challenge that current event-based video reconstruction
 
 ## Setup instruction
 
+1. Initialize virtual env
+2. 
 
 ## Run Pipeline
 
@@ -40,3 +42,6 @@ python preprocess.py --input ./data/raw --output ./data/processed --type event
 python separation.py --input ./data/processed --output ./data/separated
 
 python reconstruct.py --input ./data/separated --output ./results --model ./checkpoints/URSEE.pth
+```
+
+hello
