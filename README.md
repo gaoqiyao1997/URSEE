@@ -47,12 +47,12 @@ The static reconstruction branch of the URSEE framework enables the independent 
 
 **NOTE:** Adaptively adjust the ON/OFF threshold according to the static scene to obtain sufficient events for reconstruction.
 
-1. Obtain the initial event frame using the convolutional integration method.
+1. Obtain the initial event frame using the `convolutional integration method`.
 ```
 python conv_integral_reconstruction.py
 
 ```
-2. Obtain the high-quality.
+2. Obtain the high-quality static frame by denoising the initial one using <code>SRD module</code>.
 ```
 python conv_integral_reconstruction.py
 ```
