@@ -26,3 +26,12 @@ This paper addresses the challenge that current event-based video reconstruction
 
 - **E-StaDyn Dataset:**
   This is a synthetic dataset comprising 130 distinct scenes, each characterized by a unique static background and dynamic foreground. Download from this link.
+
+## Setup instruction
+
+1. Initialize virtual env
+   <code>
+   conda create -n virtualenv_name python=3.10
+   conda activate virtualenv_name
+   <\code>
+3. 
