@@ -23,7 +23,8 @@ This paper addresses the challenge that current event-based video reconstruction
 
 - **E-Static Dataset:**
   This is a real-world dataset captured from diverse indoor and outdoor static scenes, comprising 200 sets of raw event streams alongside corresponding high-quality ground truth frames. Download from this link.
-  **- NOTE:** All data in ```E-Static``` were captured using the **SilkyEvCam hybrid sensor**, except for the ```DAVIS_color``` folder, which contains data collected with the **DAVIS346 Color** camera.
+
+**- NOTE:** All data in ```E-Static``` were captured using the **SilkyEvCam hybrid sensor**, except for the ```DAVIS_color``` folder, which contains data collected with the **DAVIS346 Color** camera.
 For each scene, the raw event stream is stored in the ```event``` folder, and the corresponding high-quality frame is stored in the ```frame``` folder, with matching filenames.
 The ```color``` folder contains raw inputs used for color static reconstruction, acquired by placing optical filters in front of the SilkyEvCam.
 
