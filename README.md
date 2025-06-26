@@ -41,7 +41,7 @@ conda install pytorch~=2.1.0 torchvision==0.16.1 torchaudio pytorch-cuda=11.8 -c
 (optional, only for visualization) conda install -c conda-forge jupyterlab nodejs ipympl matplotlib
 ```
 
-#reconstruct-static-scene-only
+## Reconstruct Static Scene Only
 
 The static reconstruction branch of the URSEE framework enables the independent reconstruction of static scenes. Users simply need to convert the static event stream into a <code>.csv</code> file (timestamp, x, y, and polarity).
 
@@ -51,7 +51,7 @@ The static reconstruction branch of the URSEE framework enables the independent 
 ```
 python conv_integral_reconstruction.py
 ```
-2. Obtain the **high-quality static frame** by denoising the initial one using <code>SRD module</code>. Download the checkpoint from this link.
+2. Obtain the **high-quality static frame** by denoising the initial one using <code>SRD module</code>. Download the checkpoint from this **link**.
 ```
 python conv_integral_reconstruction.py
 ```
@@ -69,5 +69,15 @@ python seperate.py
 
 ### Step 2 Reconstruct high-fidelity static background frames
 
-[⬅ Back to Reconstruct Static Scene Only](#reconstruct-static-scene-only)
+```
+Follow the steps outlined in the Reconstruct Static Scene Only section
+```
 
+
+### Step 3 Reconstruct motion sequences with static backgrounds
+
+```
+Take the dynamic event stream and the reconstructed static background frame as inputs.
+Download the checkpoint of the ERSD Module.
+python test.py
+```
