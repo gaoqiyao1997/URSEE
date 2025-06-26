@@ -32,6 +32,12 @@ This paper addresses the challenge that current event-based video reconstruction
 - **E-StaDyn Dataset:**
   This is a synthetic dataset comprising 130 distinct scenes, each characterized by a unique static background and dynamic foreground. Download from this link.
 
+  **- NOTE:**
+  - Each folder in ```E-StaDyn``` represents a distinct scene. For each scene, we used **Blender** to configure a static background and introduced a foreground object following a randomly generated motion trajectory. We then rendered a sequence of continuous frames at 60 FPS. Synthetic event streams were generated using the **DVS-Voltmeter** simulator.
+  - The generated event stream was segmented into multiple chunks based on timestamps for subsequent voxel grid construction, with each chunk aligned to its corresponding key frame.
+  - Both the ```train``` and ```test``` folders contain a ```background``` subfolder, which includes high-quality static background frames for all scenes.
+  - Within each scene folder, ```event.txt``` lists the file paths to all segmented event streams, while ```frame.txt``` provides the file paths to all rendered continuous frames.
+    
 ## Setup instruction
 
 1. Initialize virtual env
