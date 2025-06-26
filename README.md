@@ -56,3 +56,8 @@ python conv_integral_reconstruction.py
 python conv_integral_reconstruction.py
 ```
 - **Color Reconstruction of Static Scenes (Option).** Obtain static event streams for the R, G, and B channels separately using a DAVIS color camera or by placing color filters in front of a standard event camera. Then, apply the proposed method to reconstruct high-quality intensity frames for each channel and fuse them to generate the final color reconstruction.
+
+## Reconstruct Motion Video with Static Background
+
+URSEE enables simultaneous processing of motion-triggered dynamic events and background-generated static events, allowing users to reconstruct motion videos with static backgrounds through a simple step-by-step workflow.
+
