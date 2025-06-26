@@ -59,5 +59,16 @@ python conv_integral_reconstruction.py
 
 ## Reconstruct Motion Video with Static Background
 
-URSEE enables simultaneous processing of motion-triggered dynamic events and background-generated static events, allowing users to reconstruct motion videos with static backgrounds through a simple step-by-step workflow.
+URSEE enables simultaneous processing of motion-triggered dynamic events and background-generated static events, allowing users to reconstruct motion videos with static backgrounds through several steps.
 
+### Step 1 Separate the raw event stream into distinct dynamic and static event streams
+
+```
+python seperate.py
+```
+
+### Step 2 Reconstruct high-fidelity static background frames
+
+```
+Follow the steps outlined in the **Reconstruct Static Scene Only** section
+```
