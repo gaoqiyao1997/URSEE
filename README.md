@@ -62,7 +62,7 @@ The static reconstruction branch of the URSEE framework enables the independent 
 ```
 python conv_integral_reconstruction.py
 ```
-2. Obtain the **high-quality static frame** by denoising the initial one using <code>SRD module</code>. Download the checkpoint from this **link**.
+2. Obtain the **high-quality static frame** by denoising the initial one using <code>SRD module</code>. Download the checkpoint named ```SRD_module.pth``` into your local folder model.
 ```
 python SRD_test_gqy.py
 ```
