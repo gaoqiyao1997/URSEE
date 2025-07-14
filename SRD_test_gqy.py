@@ -59,7 +59,7 @@ transform = transforms.Compose([transforms.ToTensor()])
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 model = SRDNet().to(device)
-model.load_state_dict(torch.load('model/SRD_module.pth'))
+model.load_state_dict(torch.load('SRD_module.pth'))
 
 # 更新为新的文件夹路径
 input_folder = 'test/input'
