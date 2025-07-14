@@ -94,6 +94,8 @@ python predict_ERSD.py -c predict_ERSD.json
 ```
 
 ## Citation
+
+```
 @inproceedings{gao2025unified,
   title={Unified Reconstruction of Static and Dynamic Scenes from Events},
   author={Gao, Qiyao and Duan, Peiqi and Lou, Hanyue and Teng, Minggui and Cai, Ziqi and Chen, Xu and Shi, Boxin},
@@ -101,3 +103,4 @@ python predict_ERSD.py -c predict_ERSD.json
   pages={27914--27923},
   year={2025}
 }
+```
