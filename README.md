@@ -90,5 +90,5 @@ Follow the steps outlined in the Reconstruct Static Scene Only section
 ```
 Take the dynamic event stream and the reconstructed static background frame as inputs.
 Download the checkpoint of the ERSD Module.
-python test.py
+python predict_ERSD.py -c predict_ERSD.json
 ```
