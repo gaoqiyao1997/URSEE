@@ -1,0 +1,31 @@
+{
+    "name": "prediction_example",
+    "n_gpu": 1,
+    "device": "0",
+    "sequence_length": {
+        "valid": 140
+    },
+    "arch": {
+        "type": "NAF_LSTM",
+        "args": {
+            "img_channel": 1,
+            "width": 8,
+            "middle_blk_num": 12,
+            "enc_blk_nums": [1, 1, 1, 28],
+            "dec_blk_nums": [1, 1, 1, 1],
+            "recurrent_block_type": "convlstm"
+        }
+    },
+    "valid_data_loader": {
+        "type": "Custom_DataLoader",
+        "args": {
+            "data_file": "DATA8test_dataset2.csv",
+            "batch_size": 1,
+            "shuffle": false,
+            "num_workers": 12
+        }
+    },
+    "log_dir": "output_rebuttal",
+    "save_dir": "output_rebuttal",
+    "resume": "ERSD_checkpoint.pth"
+}
