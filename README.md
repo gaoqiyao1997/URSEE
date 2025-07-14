@@ -80,16 +80,15 @@ python separate.py
 
 ### Step 2 Reconstruct high-fidelity static background frames
 
-```
 Follow the steps outlined in the Reconstruct Static Scene Only section
-```
+
 
 
 ### Step 3 Reconstruct motion sequences with static backgrounds
 
+Take the dynamic event stream and the reconstructed static background frame as inputs of the ```dataset_withoutflow.py``` file.
+Download the checkpoint of the ERSD Module named ```ERSD_checkpoint.pth```.
 ```
-Take the dynamic event stream and the reconstructed static background frame as inputs.
-Download the checkpoint of the ERSD Module.
 python predict_ERSD.py -c predict_ERSD.json
 ```
 
