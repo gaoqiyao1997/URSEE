@@ -75,7 +75,7 @@ URSEE enables simultaneous processing of motion-triggered dynamic events and bac
 ### Step 1 Separate the raw event stream into distinct dynamic and static event streams
 
 ```
-python seperate.py
+python separate.py
 ```
 
 ### Step 2 Reconstruct high-fidelity static background frames
