@@ -92,3 +92,12 @@ Take the dynamic event stream and the reconstructed static background frame as i
 Download the checkpoint of the ERSD Module.
 python predict_ERSD.py -c predict_ERSD.json
 ```
+
+## Citation
+@inproceedings{gao2025unified,
+  title={Unified Reconstruction of Static and Dynamic Scenes from Events},
+  author={Gao, Qiyao and Duan, Peiqi and Lou, Hanyue and Teng, Minggui and Cai, Ziqi and Chen, Xu and Shi, Boxin},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={27914--27923},
+  year={2025}
+}
