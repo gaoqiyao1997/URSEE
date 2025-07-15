@@ -22,7 +22,7 @@ This paper addresses the challenge that current event-based video reconstruction
 ## Datasets
 
 - **E-Static Dataset:**
-  This is a real-world dataset captured from diverse indoor and outdoor static scenes, comprising 200 sets of raw event streams alongside corresponding high-quality ground truth frames. Download from this link.
+  This is a real-world dataset captured from diverse indoor and outdoor static scenes, comprising 200 sets of raw event streams alongside corresponding high-quality ground truth frames. [Download from this link](https://www.dropbox.com/scl/fo/ftpw99ohu9uzkopswnyjb/AERu2EwripoVPwddQX_gZb4?rlkey=yfynvufnvy5v34vib2i85318u&st=9m7stipp&dl=0).
 
   **- NOTE:**
   - All data in ```E-Static``` were captured using the **SilkyEvCam hybrid sensor**, except for the ```DAVIS_color``` folder, which contains data collected with the **DAVIS346 Color** camera.
@@ -30,7 +30,7 @@ This paper addresses the challenge that current event-based video reconstruction
   - The ```color``` folder contains raw inputs used for color static reconstruction, acquired by placing optical filters in front of the SilkyEvCam.
 
 - **E-StaDyn Dataset:**
-  This is a synthetic dataset comprising 130 distinct scenes, each characterized by a unique static background and dynamic foreground. Download from this link.
+  This is a synthetic dataset comprising 130 distinct scenes, each characterized by a unique static background and dynamic foreground. [Download from this link](https://www.dropbox.com/scl/fo/ftpw99ohu9uzkopswnyjb/AERu2EwripoVPwddQX_gZb4?rlkey=yfynvufnvy5v34vib2i85318u&st=9m7stipp&dl=0).
 
   **- NOTE:**
   - Each folder in ```E-StaDyn``` represents a distinct scene. For each scene, we used **Blender** to configure a static background and introduced a foreground object following a randomly generated motion trajectory. We then rendered a sequence of continuous frames at 60 FPS. Synthetic event streams were generated using the **DVS-Voltmeter** simulator.
