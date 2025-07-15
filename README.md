@@ -62,7 +62,7 @@ The static reconstruction branch of the URSEE framework enables the independent 
 ```
 python conv_integral_reconstruction.py
 ```
-2. Obtain the **high-quality static frame** by denoising the initial one using <code>SRD module</code>. Download the checkpoint named ```SRD_module.pth```.
+2. Obtain the **high-quality static frame** by denoising the initial one using <code>SRD module</code>. Download the checkpoint named ```SRD_module.pth``` [link](https://www.dropbox.com/scl/fo/ji6v77ahxabv0v6os6xt6/AJcWBuBdwmlKPePhglDHXY0?rlkey=cqkiulqluq9xczn48c7xp88hu&st=f0op2wor&dl=0).
 ```
 python SRD_test_gqy.py
 ```
@@ -87,7 +87,7 @@ Follow the steps outlined in the Reconstruct Static Scene Only section
 ### Step 3 Reconstruct motion sequences with static backgrounds
 
 Take the dynamic event stream and the reconstructed static background frame as inputs of the ```dataset_withoutflow.py``` file.
-Download the checkpoint of the ERSD Module named ```ERSD_checkpoint.pth```.
+Download the checkpoint of the ERSD Module named ```ERSD_checkpoint.pth``` [link](https://www.dropbox.com/scl/fo/ji6v77ahxabv0v6os6xt6/AJcWBuBdwmlKPePhglDHXY0?rlkey=cqkiulqluq9xczn48c7xp88hu&st=f0op2wor&dl=0).
 ```
 python predict_ERSD.py -c predict_ERSD.json
 ```
