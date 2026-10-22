@@ -25,6 +25,7 @@ This paper addresses the challenge that current event-based video reconstruction
   This is a real-world dataset captured from diverse indoor and outdoor static scenes, comprising 200 sets of raw event streams alongside corresponding high-quality ground truth frames. [Download from this link](https://www.dropbox.com/scl/fo/ftpw99ohu9uzkopswnyjb/AERu2EwripoVPwddQX_gZb4?rlkey=yfynvufnvy5v34vib2i85318u&st=9m7stipp&dl=0).
 
   **- NOTE:**
+  - In the E-Static dataset, frames and event streams are **not precisely aligned**. Near-perfect alignment can be achieved by horizontally ```flipping``` the frames and applying ```ZOOM.py``` to generate **aligned_frames**.
   - All data in ```E-Static``` were captured using the **SilkyEvCam hybrid sensor**, except for the ```DAVIS_color``` folder, which contains data collected with the **DAVIS346 Color** camera.
   - For each scene, the raw event stream is stored in the ```event``` folder, and the corresponding high-quality frame is stored in the ```frame``` folder, with matching filenames.
   - The ```color``` folder contains raw inputs used for color static reconstruction, acquired by placing optical filters in front of the SilkyEvCam.
